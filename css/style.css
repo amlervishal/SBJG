@@ -3270,3 +3270,36 @@ justify-content: center;
   flex-wrap: wrap;
   width: 100%;
 }
+
+/* button */
+
+.btn-01 {
+  cursor: pointer;
+  display: inline-block;
+  padding: 8px 25px;
+  text-transform: uppercase;
+  background: #ffffff00;
+  border: 1px solid rgb(50, 50, 50);;;
+  outline: none;
+  margin: 6px 4px;
+  font-family: 'Prompt', sans-serif;
+  color: rgb(0, 0, 0);
+  font-weight: 500;
+  font-size: 15px;
+  border-radius: .1rem;
+  transition: transform 500ms ease;
+	/* -webkit-text-stroke: 0.75px rgb(50, 50, 50); */
+}
+.button-01:hover {
+  scale: 1.05;
+}
+
+.button-01:active {
+  color: rgba(0, 0, 0, 0.50);
+}
+
+.btn-02 {
+  background: #000000 !important; 
+  color: rgb(255, 255, 255) !important;
+  
+}
