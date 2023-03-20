@@ -793,7 +793,7 @@ a:focus, a:hover {
 
 .navigation .navbar-light .navbar-nav .nav-item .nav-link {
   color: #fff;
-  font-size: 14px;
+  font-size: 12px;
   line-height: 26px;
   padding: 0px 15px;
   text-transform: uppercase;
@@ -805,7 +805,7 @@ a:focus, a:hover {
 
 .navigation .navbar-light .navbar-nav .nav-item .nav-link-dark {
   color: rgb(0, 0, 0);
-  font-size: 14px;
+  font-size: 12px;
   line-height: 26px;
   padding: 0px 15px;
   text-transform: uppercase;
