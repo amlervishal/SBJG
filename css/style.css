@@ -3230,7 +3230,7 @@ justify-content: center;
 
 .col-text {
   column-count: 2;
-  column-gap: 20px;
+  column-gap: 40px;
 }
 
 @media screen and (max-width:800px) {
