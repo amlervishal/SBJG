@@ -1038,7 +1038,7 @@ a:focus, a:hover {
 .hero-area2 {
   background-image: none;
   background-size: cover;
-  height: 75vh;
+  height: 80vh;
   position: relative;
   display: flex;
   justify-content: center;
@@ -3056,7 +3056,7 @@ a:focus, a:hover {
 }
 
 .card-press:hover .card-content2 {
-  transform: translateY(0);
+  transform: translateY(10%);
   transition: transform 500ms ease;
 }
 
@@ -3273,9 +3273,70 @@ a:focus, a:hover {
 }
 
 .project-20 {
-  background-image: url(../images/portfolio/thumbnail-hawthornpk-02.png);
+  background-image: url(../images/projects/stonehouse/p-stonehouse-02.jpg);
   background-position: top center;
 }
+
+.project-21 {
+  background-image: url(../images/projects/p-200lafayette/p-200lafayette-01.jpg);
+  background-position: top center;
+}
+
+.project-22 {
+  background-image: url(../images/projects/edge/p-edge-01.jpg);
+  background-position: left center;
+}
+
+.project-23 {
+  background-image: url(../images/projects/ohm/p-ohm-01.jpg);
+  background-position: left center;
+}
+
+.project-24 {
+  background-image: url(../images/projects/emraldgreen/p-emraldgreen-01.jpg);
+  background-position: left center;
+}
+
+.project-25 {
+  background-image: url(../images/projects/plazaathenee/p-plazaathenee-01.jpg);
+  background-position: top center;
+}
+
+.project-26 {
+  background-image: url(../images/projects/liccourthouse/p-liccourthouse-01.jpg);
+  background-position: top center;
+}
+
+.project-27 {
+  background-image: url(../images/projects/giraffe/p-hotelgiraffe-thumb.jpg);
+  background-position: top center;
+}
+
+.project-28 {
+  background-image: url(../images/projects/lymeresidence/p-lymeresidence-01.jpg);
+  background-position: top center;
+}
+
+.project-29 {
+  background-image: url(../images/projects/libraryhotel/p-libraryhotel-thumb.jpg);
+  background-position: top center;
+}
+
+.project-30 {
+  background-image: url(../images/projects/lovelanemews/p-lovelanemews-thumb.jpg);
+  background-position: top center;
+}
+
+.project-31 {
+  background-image: url(../images/projects/breakwaterhotel/p-breakwaterhotel-02.jpg);
+  background-position: top center;
+}
+
+.project-32 {
+  background-image: url(../images/projects/brooklynbusinesscenter/p-bbc-01.jpg);
+  background-position: top center;
+}
+
 
 .flex-container {
  display: flex;
