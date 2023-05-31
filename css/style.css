@@ -2937,7 +2937,7 @@ a:focus, a:hover {
   background-position: top center;
 }
 .card-8 {
-  background-image: url(../images/team/thorsten.png);
+  background-image: url(../images/team/thorsten.jpg);
   background-position: top center;
 }
 
@@ -2978,6 +2978,16 @@ a:focus, a:hover {
 
 .card-16 {
   background-image: url(../images/team/lidia.png);
+  background-position: top center;
+}
+
+.card-17 {
+  background-image: url(../images/team/brandon.jpg);
+  background-position: top center;
+}
+
+.card-18 {
+  background-image: url(../images/team/alee.jpg);
   background-position: top center;
 }
 
@@ -3337,10 +3347,69 @@ a:focus, a:hover {
   background-position: top center;
 }
 
+.project-33 {
+  background-image: url(../images/projects/foquets/p-foquets-01.jpg);
+  background-position: left center;
+}
+
+.project-34 {
+  background-image: url(../images/projects/manhattanaveappts/p-manhattanaveappts-01.jpg);
+  background-position: left center;
+}
+
+.project-35 {
+  background-image: url(../images/projects/79walker/p-79walker-05.jpg);
+  background-position: left center;
+}
+
+.project-36 {
+  background-image: url(../images/projects/134broadway/p-134broadway-01.jpg);
+  background-position: left center;
+}
+
+.project-37 {
+  background-image: url(../images/projects/chelseagreen/p-chelseagreen-thumb.jpg);
+  background-position: right center;
+}
+
+.project-38 {
+  background-image: url(../images/projects/gansevoortmeatpacking/p-gansevoortmeatpacking-thumb.jpg);
+  background-position: right center;
+}
+
+.project-39 {
+  background-image: url(../images/projects/onethirdave/p-onethirdave-02.jpg);
+  background-position: center center;
+}
+
+.project-40 {
+  background-image: url(../images/projects/555west23rd/p-555west23rdstreet-08.jpg);
+  background-position: center center;
+}
+
+.project-41 {
+  background-image: url(../images/projects/jonesles/p-jonesles-01.jpg);
+  background-position: center center;
+}
+
+.project-42 {
+  background-image: url(../images/projects/sloanemansion/p-sloanemansion-01.jpg);
+  background-position: right center;
+}
+
+.project-43 {
+  background-image: url(../images/projects/suttontower/p-suttontower-thumb.jpg);
+  background-position: right center;
+}
+
+.project-44 {
+  background-image: url(../images/projects/250w96th/p-250w96th-thumb.jpg);
+  background-position: right center;
+}
 
 .flex-container {
  display: flex;
-justify-content: center;
+ justify-content: center;
  flex-wrap: wrap;
 }
 
@@ -3454,8 +3523,17 @@ justify-content: center;
   transition: transform 500ms ease;
 	/* -webkit-text-stroke: 0.75px rgb(50, 50, 50); */
 }
+
+.btn-01:focus {
+  outline: none;
+}
+
 .button-01:hover {
   scale: 1.05;
+}
+
+.button-01:focus {
+  outline: none;
 }
 
 .button-01:active {
@@ -3469,6 +3547,10 @@ justify-content: center;
   border: none;
   font-weight: 600;
   letter-spacing: 0.2em;
+}
+
+.btn-02:focus {
+  outline: none;
 }
 
 .project-box {
