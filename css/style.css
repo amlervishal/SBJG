@@ -424,8 +424,8 @@ a:focus, a:hover {
   display: flex;
   justify-content: center;
   margin-top: 20px;
-  margin-left: 5%;
-  margin-right: 5%;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 .section-projects3 {
@@ -438,9 +438,9 @@ a:focus, a:hover {
 .section-awards {
   display: flex;
   justify-content: center;
-  margin-top: 0px;
-  margin-left: 5%;
-  margin-right: 5%;
+  margin-top: 5%;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 .section-team {
@@ -645,7 +645,7 @@ a:focus, a:hover {
 .about-img {
   height: 100%;
   width: 100%;
-  object-fit: contain;
+  object-fit: cover;
 }
 
 
@@ -3665,4 +3665,18 @@ a:focus, a:hover {
   margin-bottom: 0;
   border-radius: 0.25rem;
   justify-content: center;
+}
+
+.img-60 {
+  width: 60vw;
+  height: auto;
+  /* object-fit: cover; */
+}
+
+.social-icon3 {
+  width: 50vw;
+  height: auto;
+  margin: 20px;
+  box-shadow: #000 5px;
+  
 }
