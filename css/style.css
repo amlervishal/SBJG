@@ -20,7 +20,7 @@ p {
   font-family: 'Raleway', sans-serif;
   font-size: 15px;
   line-height: 1.9;
-  font-weight: 400;
+  font-weight: 500;
   letter-spacing: 0.01em;
 }
 
@@ -46,7 +46,7 @@ h1, h2, h3, h4, h5, h6 {
   border-top: .75px solid rgb(0 0 0 / 50%);
   height: auto;
   box-shadow: #000;
-  width: 90%;
+ 
 }
 .hr-st-white {
   border-top: .75px solid rgb(255, 255, 255);
@@ -239,24 +239,49 @@ a:focus, a:hover {
   max-height: auto;
 }
 
-@media screen and (max-width:1024px) {
+
+
+@media screen and (max-width:1250px) {
+  .img2 {
+  max-width: 30%;
+  max-height: auto;
+}
+}
+
+@media screen and (max-width:1100px) {
+  .img2 {
+  max-width: 30%;
+  max-height: auto;
+}
+}
+
+@media screen and (max-width:900px) {
   .img2 {
   max-width: 40%;
   max-height: auto;
 }
 }
-@media screen and (max-width:800px) {
+
+@media screen and (max-width:750px) {
   .img2 {
   max-width: 50%;
   max-height: auto;
 }
 }
-@media screen and (max-width:500px) {
+
+@media screen and (max-width:600px) {
   .img2 {
-  max-width: 80%;
+  max-width: 60%;
   max-height: auto;
 }
 }
+
+
+
+
+
+
+
 
 .img-portfolio {
   border-radius: 0.25rem;
@@ -939,7 +964,7 @@ a:focus, a:hover {
   .navigation .logo-white {
     /* display: none; */
     position: relative;
-    max-width: 40%;
+    /* max-width: 50%; */
   }
 
   .logo-white img {
@@ -3123,11 +3148,9 @@ a:focus, a:hover {
   color: #ffffff;
   background-size: cover;
   padding: 8rem 0 0;
-  width: 100%;
+  width: 18vw;
   max-height: 100%;
-  /* border-radius: 0.2em; */
   overflow: hidden;
-
   transition: transform 500ms ease;
   margin: 1%;
 
@@ -3135,6 +3158,23 @@ a:focus, a:hover {
 
 /* responsive */
 
+@media screen and (max-width:1250px) {
+  .card-project {
+    width: 25vw;
+  }
+}
+
+@media screen and (max-width:900px) {
+  .card-project {
+    width: 38vw;
+  }
+}
+
+@media screen and (max-width:600px) {
+  .card-project {
+    width: 75vw;
+  }
+}
 
 .card-project:hover {
   transform: scale(1.05);
@@ -3153,7 +3193,8 @@ a:focus, a:hover {
 .card-title1 {
   color: #fff;
   position: relative;
-  font-size: 1.25rem;
+  font-size: 1.05rem;
+  font-weight: 400;
   padding-bottom: 5px;
   text-shadow: 1px 1px #3939397d;
 }
@@ -3604,4 +3645,23 @@ a:focus, a:hover {
 .link-01 {
   color: #002323;
   background: transparent;
+}
+
+/* .filter-box {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+} */
+
+.list1 {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  padding-left: 0;
+  margin-bottom: 0;
+  border-radius: 0.25rem;
+  justify-content: center;
 }
