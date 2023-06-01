@@ -76,6 +76,8 @@
     autoplaySpeed: 2000,
     slidesToShow: 5,
     slidesToScroll: 1,
+    centerMode: true,
+    variableWidth: true,
     responsive: [{
       breakpoint: 1024,
       settings: {
@@ -106,13 +108,15 @@
     autoplaySpeed: 2000,
     slidesToShow: 5,
     slidesToScroll: 1,
+    centerMode: true,
+    variableWidth: true,
     responsive: [{
       breakpoint: 1024,
       settings: {
         slidesToShow: 4,
         slidesToScroll: 1,
         infinite: true,
-        dots: false
+        dots: true
       }
     },
     {
