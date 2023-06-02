@@ -3680,3 +3680,7 @@ a:focus, a:hover {
   box-shadow: #000 5px;
   
 }
+
+.filtr-container {
+  display: -webkit-flex !important;
+}
