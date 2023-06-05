@@ -3442,6 +3442,51 @@ a:focus, a:hover {
   background-position: right center;
 }
 
+.project-45 {
+  background-image: url(../images/projects/555west23rd/p-555west23rdstreet-03.jpg);
+  background-position: center center;
+}
+
+.project-46 {
+  background-image: url(../images/projects/gansevoortmeatpacking/p-gansevoortmeatpacking-06.jpg);
+  background-position: right center;
+}
+
+.project-47 {
+  background-image: url(../images/projects/libraryhotel/p-libraryhotel-01.jpg);
+  background-position: top center;
+}
+
+.project-48 {
+  background-image: url(../images/projects/lymeresidence/p-lymeresidence-11.jpg);
+  background-position: top center;
+}
+
+.project-49 {
+  background-image: url(../images/projects/ohm/p-ohm-04.jpg);
+  background-position: left center;
+}
+
+.project-50 {
+  background-image: url(../images/projects/edge/p-edge-09.jpg);
+  background-position: left center;
+}
+
+.project-51 {
+  background-image: url(../images/projects/stonehouse/p-stonehouse-09.jpg);
+  background-position: top center;
+}
+
+.project-52 {
+  background-image: url(../images/projects/gansevoortparkave/p-gansevoortparkave-06.jpg);
+  background-position: top center;
+}
+
+.project-53 {
+  background-image: url(../images/projects/p-325fifth/p-325fifth-08.jpg);
+  background-position: top center;
+}
+
 .flex-container {
  display: flex;
  justify-content: center;
