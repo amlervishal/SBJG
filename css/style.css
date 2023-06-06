@@ -3522,7 +3522,25 @@ a:focus, a:hover {
   background-position: top center;
 }
 
+.project-61 {
+  background-image: url(../images/projects/renaissanceschool/p-renaissancecharter-01.jpg);
+  background-position: top center;
+}
 
+.project-62 {
+  background-image: url(../images/projects/gansevoortSouth/p-gansevoortsouth-01.jpg);
+  background-position: top center;
+}
+
+.project-63 {
+  background-image: url(../images/projects/p-prospectbridges/p-prospect-bridges.png);
+  background-position: top center;
+}
+
+.project-64 {
+  background-image: url(../images/projects/p-porticoplace/p-portico-place-01.jpg);
+  background-position: top center;
+}
 .flex-container {
  display: flex;
  justify-content: center;
