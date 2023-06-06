@@ -3487,6 +3487,21 @@ a:focus, a:hover {
   background-position: top center;
 }
 
+.project-54 {
+  background-image: url(../images/projects/i-levelbk/i-levelBK-06.jpg);
+  background-position: top center;
+}
+
+.project-55 {
+  background-image: url(../images/projects/hotelx/p-hotelx-11.jpg);
+  background-position: top center;
+}
+
+.project-56 {
+  background-image: url(../images/projects/i-solari/i-solari-01.jpg);
+  background-position: top center;
+}
+
 .flex-container {
  display: flex;
  justify-content: center;
@@ -3686,13 +3701,6 @@ a:focus, a:hover {
   background: transparent;
 }
 
-/* .filter-box {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  width: 100%;
-  justify-content: center;
-} */
 
 .list1 {
   display: -ms-flexbox;
@@ -3733,7 +3741,6 @@ a:focus, a:hover {
     transform-style: preserve-3d;
     position: absolute;
     transition: all 0.5s ease-out 0ms;  
-    /* padding: 0.5%; */
 }
 
 .form-title {
