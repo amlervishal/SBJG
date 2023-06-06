@@ -1,3 +1,40 @@
+<?php
+    $email_sent = false;
+
+    if(isset($_POST['email']) && $_POST['email'] != ''){
+       
+        if( filter_var($_POST['email'], FILTER_VALIDATE_EMAIL) ){
+            // sumbit the form
+
+            $userName = $_POST['name'];
+            $userEmail = $_POST['email'];
+            $userMobile = $_POST['mobile'];
+            $messageSubject = $_POST['subject'];
+            $message = $_POST['message'];
+
+            $to = "contactus@sbjgroup.com";
+            $headers = 'From: idastrachan@sbjgroup.com'. "\r\n";
+            $emailSubject = "GIS Contact-us: ". $messageSubject;
+            $body = "";
+
+
+            $body .= "From: ".$userName. "\r\n";
+            $body .= "Email: ".$userEmail. "\r\n";
+            $body .= "Mobile: ".$userMobile. "\r\n";
+            $body .= "Subject: ".$messageSubject. "\r\n";
+            $body .= "Message: ".$message. "\r\n";
+
+            mail($to, $emailSubject, $body, $headers);
+            
+            $email_sent = true;
+        }
+        else{
+            $invalid_class_name = "form-invalid";
+        }
+    }
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -134,6 +171,51 @@ End Fixed Navigation
 	</div> 
   <hr>
  
+</section>
+
+<section class="typical-section">
+  <div class="container">
+      <div>
+          <h3 class="text-center page-title">Get in touch.</h3>
+          <p class="text-center">Have a question. Ask us. Our team will get back to you.</p>
+      </div>
+     
+      <div class="admission-form d-flex justify-content-center">
+      <form action="contact-us.php" method="POST" class="form">
+          <div class="form-group">
+              <label for="name" class="form-label text-primary">Your Name </label>
+              <input type="text" class="form-control" id="name" name="name" placeholder="Jane Doe" tabindex="1" required>
+          </div>
+          <div class="form-group">
+              <label for="email" class="form-label text-primary <?= $invalid_class_name ?? "" ?>">Your Email</label>
+              <input type="email" class="form-control" id="email" name="email" placeholder="jane@doe.com" tabindex="2" required>
+          </div>
+          <div class="form-group">
+              <label for="mobile" class="form-label text-primary">Contact Number</label>
+              <input type="text" class="form-control" id="mobile" name="mobile" placeholder="Mobile" tabindex="3" required>
+          </div>
+          <div class="form-group">
+              <label for="subject" class="form-label text-primary">Subject</label>
+              <input type="text" class="form-control" id="subject" name="subject" placeholder="Enquiry" tabindex="4" required>
+          </div>
+          <div class="form-group">
+              <label for="message" class="form-label text-primary">Message</label>
+              <textarea class="form-control" rows="5" cols="50" id="message" name="message" placeholder="Enter Message..." tabindex="5"></textarea>
+          </div>
+          <div class="text-center my-2">
+              <button type="submit" class="btn btn-primary">Send Message!</button>
+          </div>
+          <?php
+              if($email_sent):
+          ?>
+              <h3>Thank you, We will be in touch soon</h3>
+          <?php
+              endif;
+          ?>
+     </div>
+
+      </form>
+  </div>
 </section>
 <!-- Page Content-->
 
