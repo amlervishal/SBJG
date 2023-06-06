@@ -3735,3 +3735,18 @@ a:focus, a:hover {
     transition: all 0.5s ease-out 0ms;  
     /* padding: 0.5%; */
 }
+
+.form-title {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.75rem;
+  line-height: 1.9;
+  font-weight: 400;
+  letter-spacing: 0.3em;
+}
+
+.form-section {
+  margin-top: 50px;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 200px;
+}

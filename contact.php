@@ -14,7 +14,7 @@
 
             $to = "contactus@sbjgroup.com";
             $headers = 'From: idastrachan@sbjgroup.com'. "\r\n";
-            $emailSubject = "GIS Contact-us: ". $messageSubject;
+            $emailSubject = "SBJG ENQUIRY FORM: ". $messageSubject;
             $body = "";
 
 
@@ -172,38 +172,38 @@ End Fixed Navigation
   <hr>
  
 </section>
-
-<section class="typical-section">
+<hr>
+<section class="form-section">
   <div class="container">
       <div>
-          <h3 class="text-center page-title">Get in touch.</h3>
+          <h5 class="text-center form-title">Get in touch.</h5>
           <p class="text-center">Have a question. Ask us. Our team will get back to you.</p>
       </div>
      
       <div class="admission-form d-flex justify-content-center">
-      <form action="contact-us.php" method="POST" class="form">
+      <form action="contact.php" method="POST" class="form">
           <div class="form-group">
-              <label for="name" class="form-label text-primary">Your Name </label>
+              <label for="name" class="form-label">Your Name </label>
               <input type="text" class="form-control" id="name" name="name" placeholder="Jane Doe" tabindex="1" required>
           </div>
           <div class="form-group">
-              <label for="email" class="form-label text-primary <?= $invalid_class_name ?? "" ?>">Your Email</label>
+              <label for="email" class="form-label  <?= $invalid_class_name ?? "" ?>">Your Email</label>
               <input type="email" class="form-control" id="email" name="email" placeholder="jane@doe.com" tabindex="2" required>
           </div>
           <div class="form-group">
-              <label for="mobile" class="form-label text-primary">Contact Number</label>
+              <label for="mobile" class="form-label ">Contact Number</label>
               <input type="text" class="form-control" id="mobile" name="mobile" placeholder="Mobile" tabindex="3" required>
           </div>
           <div class="form-group">
-              <label for="subject" class="form-label text-primary">Subject</label>
+              <label for="subject" class="form-label ">Subject</label>
               <input type="text" class="form-control" id="subject" name="subject" placeholder="Enquiry" tabindex="4" required>
           </div>
           <div class="form-group">
-              <label for="message" class="form-label text-primary">Message</label>
+              <label for="message" class="form-label ">Message</label>
               <textarea class="form-control" rows="5" cols="50" id="message" name="message" placeholder="Enter Message..." tabindex="5"></textarea>
           </div>
           <div class="text-center my-2">
-              <button type="submit" class="btn btn-primary">Send Message!</button>
+              <button type="submit" class="btn btn-dark">Send Message!</button>
           </div>
           <?php
               if($email_sent):
@@ -231,7 +231,7 @@ End Fixed Navigation
 			  </ul>
 		</div>
 		<div class="">
-			<h6 class="text-center">Copyright 2022. All rights reserved. Design and Developed by <a href="">SBJG</a></h6>
+			<h6 class="text-center">Copyright 2023. All rights reserved. Designed and Developed by <a href="index.html">SBJ GROUP</a></h6>
 		</div>
 			
 	</div>
