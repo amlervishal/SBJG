@@ -3502,6 +3502,27 @@ a:focus, a:hover {
   background-position: top center;
 }
 
+.project-57 {
+  background-image: url(../images/projects/i-morganparc/i-morganparc-01.jpg);
+  background-position: top center;
+}
+
+.project-58 {
+  background-image: url(../images/projects/i-trinity/i-trinity-01.jpg);
+  background-position: top center;
+}
+
+.project-59 {
+  background-image: url(../images/projects/avenueU/p-avenueU-02.jpg);
+  background-position: top center;
+}
+
+.project-60 {
+  background-image: url(../images/projects/lex-ave-soccerfield/p-lex-ave-soccerfield-01.jpg);
+  background-position: top center;
+}
+
+
 .flex-container {
  display: flex;
  justify-content: center;
