@@ -13,8 +13,29 @@ p {
   font-family: 'Raleway', sans-serif;
   font-size: 15px;
   line-height: 1.9;
-  font-weight: 500;
+  font-weight: 400;
   letter-spacing: 0.01em;
+}
+
+@media (max-width: 800px) {
+  p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 12px;
+    line-height: 1.9;
+    font-weight: 400;
+    letter-spacing: 0.01em;
+  }
+
+}
+
+@media (max-width: 600px) {
+  p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 11px;
+    line-height: 1.9;
+    font-weight: 400;
+    letter-spacing: 0.01em;
+  }
 }
 
 .titlefont {
@@ -57,18 +78,33 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 0.01rem;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 800px) {
   .page-title {
     font-family: 'Raleway', sans-serif;
     color: rgb(50, 50, 50);
-    font-weight: 400;
-    font-size: 30px;
+    font-weight: 500;
+    font-size: 25px;
     letter-spacing: 1rem;
     text-transform: uppercase;
     margin-bottom: 2rem;
   }
 
 }
+
+@media (max-width: 600px) {
+  .page-title {
+    font-family: 'Raleway', sans-serif;
+    color: rgb(50, 50, 50);
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1rem;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+
+}
+
 .outline-font {
   font-family: 'Raleway', sans-serif;
   color: rgb(0, 0, 0);
@@ -162,12 +198,23 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 60px;
 }
 }
+
 .promptfont {
   font-family: 'Raleway', sans-serif;
   font-weight: 400;
   color: rgb(50, 50, 50);
 	font-size: 15px;
   text-align: justify;
+}
+
+@media (max-width: 768px) {
+  .promptfont {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    color: rgb(50, 50, 50);
+    font-size: 12px;
+    text-align: justify;
+  }
 }
 
 .promptfont-white {
@@ -3541,6 +3588,34 @@ a:focus, a:hover {
   background-image: url(../images/projects/p-porticoplace/p-portico-place-01.jpg);
   background-position: top center;
 }
+
+.project-65 {
+  background-image: url(../images/projects/p-phoenix-mills/p-phoenix-mill4.png);
+  background-position: top center;
+}
+
+.project-66 {
+  background-image: url(../images/projects/p-indonesian-mission/p-indonesian-mission-addition.png);
+  background-position: top center;
+}
+
+.project-67 {
+  background-image: url(../images/projects/p-castironbuilding/i-cast-iron-building-thumb.png);
+  background-position: top center;
+}
+
+.project-68 {
+  background-image: url(../images/projects/p-bankerstrust/p-bankers-trust1.png);
+  background-position: top center;
+}
+
+.project-69 {
+  background-image: url(../images/projects/p-252-bleecker/i-252-bleecker.png);
+  background-position: top center;
+}
+
+
+
 .flex-container {
  display: flex;
  justify-content: center;
@@ -3795,4 +3870,82 @@ a:focus, a:hover {
   margin-left: 10%;
   margin-right: 10%;
   margin-bottom: 200px;
+}
+
+.image-slider {
+  background-size: cover;
+  height: 75vh;
+  position: relative;
+  object-fit: contain;  
+}
+
+@media screen and (max-width:2000px) {
+  .image-slider {
+    background-size: cover;
+    height: 80vh;
+    position: relative;
+    object-fit: contain;  
+  }
+}
+
+@media screen and (max-width:1500px) {
+  .image-slider {
+    background-size: cover;
+    height: 70vh;
+    position: relative;
+    object-fit: contain;  
+  }
+}
+
+@media screen and (max-width:1200px) {
+  .image-slider {
+    background-size: cover;
+    height: 60vh;
+    position: relative;
+    object-fit: contain;  
+  }
+}
+
+@media screen and (max-width:1024px) {
+  .image-slider {
+    background-size: cover;
+    height: 55vh;
+    position: relative;
+    object-fit: contain;  
+  }
+}
+@media screen and (max-width:900px) {
+  .image-slider {
+    background-size: cover;
+    height: 50vh;
+    position: relative;
+    object-fit: contain;  
+  }
+}
+
+@media screen and (max-width:800px) {
+  .image-slider {
+    background-size: cover;
+    height: 40vh;
+    position: relative;
+    object-fit: contain;  
+  }
+}
+
+@media screen and (max-width:600px) {
+  .image-slider {
+    background-size: cover;
+    height: 30vh;
+    position: relative;
+    object-fit: contain;  
+  }
+}
+
+@media screen and (max-width:500px) {
+  .image-slider {
+    background-size: cover;
+    height: 25vh;
+    position: relative;
+    object-fit: contain;  
+  }
 }
