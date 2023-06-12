@@ -1,10 +1,3 @@
-/**
- * WEBSITE: https://themefisher.com
- * TWITTER: https://twitter.com/themefisher
- * FACEBOOK: https://www.facebook.com/themefisher
- * GITHUB: https://github.com/themefisher/
- */
-
 (function ($) {
   'use strict';
 
@@ -49,7 +42,9 @@
     var containerEl = document.querySelector('.filtr-container');
     var filterizd;
     if (containerEl) {
-      filterizd = $('.filtr-container').filterizr({});
+      filterizd = $('.filtr-container').filterizr({
+        filter: 'custom_all'
+      }); 
     }
   }, 500);
 

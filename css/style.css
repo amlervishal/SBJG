@@ -3614,6 +3614,40 @@ a:focus, a:hover {
   background-position: top center;
 }
 
+.project-70 {
+  background-image: url(../images/projects/p-libertyplaza/p-liberty-plaza1.png);
+  background-position: top right;
+}
+
+.project-71 {
+  background-image: url(../images/projects/p-hamptoncourt/p-hampton-court1.png);
+  background-position: top right;
+}
+
+.project-72 {
+  background-image: url(../images/projects/p-crystal-green/p-crystal-green1.png);
+  background-position: top right;
+}
+
+.project-73 {
+  background-image: url(../images/projects/p-chatham44/p-chatham-44.png);
+  background-position: top center;
+}
+
+.project-74 {
+  background-image: url(../images/projects/p-21-chelsea/p-21-chelsea.png);
+  background-position: top center;
+}
+
+.project-75 {
+  background-image: url(../images/projects/p-130barrow/p-130-barrow.png);
+  background-position: top right;
+}
+
+.project-76 {
+  background-image: url(../images/projects/p-520broome/p-520-broome.png);
+  background-position: top right;
+}
 
 
 .flex-container {
@@ -3948,4 +3982,14 @@ a:focus, a:hover {
     position: relative;
     object-fit: contain;  
   }
+}
+
+.titlefont2 {
+  font-family: 'Raleway', sans-serif;
+  color: rgb(50, 50, 50);
+  font-weight: 500;
+  font-size: 20px;
+  letter-spacing: 0.25rem;
+  text-transform: uppercase;
+  margin-bottom: 2rem;
 }

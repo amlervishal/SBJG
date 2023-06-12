@@ -156,7 +156,7 @@ End Fixed Navigation
               </div>
               </div> <hr>
 
-              <h6><a class="promptfont" href="">Careers</a></h6>
+              <h6><a class="promptfont" href="careers.php">Careers</a></h6>
         </div>
 
         <div class="col-sm title my-auto text-center">

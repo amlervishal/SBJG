@@ -1,3 +1,45 @@
+<?php
+    $email_sent = false;
+
+    if(isset($_POST['email']) && $_POST['email'] != ''){
+       
+        if( filter_var($_POST['email'], FILTER_VALIDATE_EMAIL) ){
+            // sumbit the form
+
+            $userName = $_POST['name'];
+            $userEmail = $_POST['email'];
+            $userMobile = $_POST['mobile'];
+            $messageSubject = $_POST['subject'];
+            $resume = $_POST['resume'];
+            $portfolio = $_POST['portfolio'];
+            $message = $_POST['message'];
+          
+
+            $to = "contactus@sbjgroup.com";
+            $headers = 'From: idastrachan@sbjgroup.com'. "\r\n";
+            $emailSubject = "SBJG ENQUIRY FORM: ". $messageSubject;
+            $body = "";
+
+
+            $body .= "From: ".$userName. "\r\n";
+            $body .= "Email: ".$userEmail. "\r\n";
+            $body .= "Mobile: ".$userMobile. "\r\n";
+            $body .= "Subject: ".$messageSubject. "\r\n";
+            $body .= "Resume: ".$resume. "\r\n";
+            $body .= "Portfolio: ".$portfolio. "\r\n";
+            $body .= "Cover: ".$message. "\r\n";
+
+            mail($to, $emailSubject, $body, $headers);
+            
+            $email_sent = true;
+        }
+        else{
+            $invalid_class_name = "form-invalid";
+        }
+    }
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -24,7 +66,7 @@
   <link rel="stylesheet" href="plugins/themefisher-font/style.css">
   <!-- bootstrap.min css -->
   <link rel="stylesheet" href="plugins/bootstrap/bootstrap.min.css">
-  
+  <!-- Lightbox.min css -->
   <link rel="stylesheet" href="plugins/lightbox2/css/lightbox.min.css">
   <!-- animation css -->
   <link rel="stylesheet" href="plugins/animate/animate.css">
@@ -35,6 +77,7 @@
 
 </head>
 <body id="body">
+ 
 
 <!--
 Fixed Navigation
@@ -88,70 +131,67 @@ Fixed Navigation
 End Fixed Navigation
 ==================================== -->
 <!-- Page Content -->
-<section class="portfolio section-projects " id="portfolio"></section>
+<section class="section-projects"></section><hr class="hr-st">
 
-<hr class="hr-st">
-
-<section class="section-projects2">
-
-  <div class="project-box">
-    <div class="title-box text-uppercase">The Ohm</div>
-      <div class="slides">
-        <div class="hero-slider">
-          
-
-          <div class="image-slider" style="background-image: url(images/projects/ohm/p-ohm-04.jpg);"></div>
-
-          <div class="image-slider" style="background-image: url(images/projects/ohm/p-ohm-05.jpg);"></div>
-
-          <div class="image-slider" style="background-image: url(images/projects/ohm/p-ohm-06.jpg);"></div>
-
-          <div class="image-slider" style="background-image: url(images/projects/ohm/p-ohm-07.jpg);"></div>
-
-          <div class="image-slider" style="background-image: url(images/projects/ohm/p-ohm-08.jpg);"></div>
-
-          <div class="image-slider" style="background-image: url(images/projects/ohm/p-ohm-09.jpg);"></div>
-
-          <div class="image-slider" style="background-image: url(images/projects/ohm/p-ohm-10.jpg);"></div>
-
-          <div class="image-slider" style="background-image: url(images/projects/ohm/p-ohm-11.jpg);"></div>
-
-        </div>
+<section class="form-section">
+  <div class="container">
+      <div>
+          <h5 class="text-center titlefont2">We're always looking for great talent to join our team.</h5>
+          <p class="text-center">Please fill out the form below and share a issuu/other link your resume and portfolio.</p>
       </div>
+     
+      <div class="admission-form d-flex justify-content-center">
+      <form action="contact.php" method="POST" class="form">
+          <div class="form-group">
+              <label for="name" class="form-label">Your Name </label>
+              <input type="text" class="form-control" id="name" name="name" placeholder="Jane Doe" tabindex="1" required>
+          </div>
+          <div class="form-group">
+              <label for="email" class="form-label  <?= $invalid_class_name ?? "" ?>">Your Email</label>
+              <input type="email" class="form-control" id="email" name="email" placeholder="jane@doe.com" tabindex="2" required>
+          </div>
+          <div class="form-group">
+              <label for="mobile" class="form-label ">Contact Number</label>
+              <input type="text" class="form-control" id="mobile" name="mobile" placeholder="Mobile" tabindex="3" required>
+          </div>
+          <div class="form-group">
+              <label for="subject" class="form-label ">Subject</label>
+              <input type="text" class="form-control" id="subject" name="subject" placeholder="Enquiry" tabindex="4" required>
+          </div>
+
+          <div class="form-group">
+              <label for="resume" class="form-label ">Issuu Resume</label>
+              <input type="text" class="form-control" id="resume" name="cv-link" placeholder="CV-link" tabindex="5" required>
+          </div>
+
+          <div class="form-group">
+              <label for="portfolio" class="form-label ">Issuu Portfolio</label>
+              <input type="text" class="form-control" id="portfolio" name="portfolio" placeholder="Portfolio-link" tabindex="5" required>
+          </div>
+
+          <div class="form-group">
+              <label for="subject" class="form-label ">Subject</label>
+              <input type="text" class="form-control" id="subject" name="subject" placeholder="Enquiry" tabindex="6" required>
+          </div>
+
+          <div class="form-group">
+              <label for="message" class="form-label ">Cover Letter</label>
+              <textarea class="form-control" rows="5" cols="50" id="message" name="message" placeholder="Cover Letter.." tabindex="7"></textarea>
+          </div>
+          <div class="text-center my-2">
+              <button type="submit" class="btn btn-dark">Send Message!</button>
+          </div>
+          <?php
+              if($email_sent):
+          ?>
+              <h3>Thank you, We will be in touch soon</h3>
+          <?php
+              endif;
+          ?>
+     </div>
+
+      </form>
   </div>
-   
-</section>
-<section class="section-projects2">
-  <div class="project-info">
-    <div class="p-2 promptfont"><h6>The Ohm</h6> <p class="m-0">Manhattan, NY <br> 2010</p></div>
-    <div class="p-2 promptfont"><h6>Client  </h6> <p>Douglaston Development
-    </p></div>
-    <div class="p-2 promptfont"><h6>Services</h6> <p> Architectural Design <br> Interior Design </p></div>
-    <div class="p-2 promptfont"><h6>Project Size  </h6> <p>1,300,000 gsf</p></div>
-  
-  </div>
-</section>
-
-
-<section class="portfolio section-projects2" id="portfolio">
-
-  
-
-	<div class="container-fluid mx-5 my-2">
-		<div class="row">
-			<div class="col-md">
-				<p class="col-text">Located in Manhattan’s West Chelsea District, this 34-story building contains 369 apartment units. The building is clad with a combination of precast concrete panels and an aluminum window wall system. Contained within the building’s 359,000 gsf is 4,000 sf of ground floor retail space, below grade parking and tenant amenities including a fitness center and lounge. The project was able to take advantage of special incentives that allowed for higher floor area ratio including Transfer Development Rights from the neighboring High Line Transfer Corridor Zone and Inclusionary Housing regulations. <br><br>
-
-          Because the program required the lobby to be located on 11th Avenue, far from the elevators, the progression from the building entrance to the elevators had to be a unique and worthwhile experience. The solution was for the lobby to become a dramatic and flexible space that is an extension of the residents’ living space during the day time complete with a food kiosk and café tables, while bringing the energy and vitality of the city in at night with the projection screens and stage. The entire space is transformed into a performance venue on a regular basis, and features local bands and performance artists. <br><br>
-          
-          The plum color of the walls and the recessed LED color changing light niches add to the vibrancy and energy of the space. The glowing orange resin front desk is a focal point in the lobby. The ceiling above the front desk is low and the passage narrows, creating a transition point between the public space of the lobby and the more private space of the hall leading to the residential elevators. The lobby and amenity spaces located on the second floor are connected via a grand staircase that incorporates an intermediate landing/lounge area that overlooks the lobby. The amenity spaces are full of natural light and offer great views. The furniture chosen for the lounge is contemporary and comfortable with a prevalent plum color along with red and yellow accents.
-		</div>
-	</div>
-</section>
-
-
-<section class="section">
- 
 </section>
 <!-- Page Content-->
 
@@ -201,6 +241,8 @@ End Fixed Navigation
 
 <!-- Custom js -->
 <script src="js/script.js"></script>
+
+
 
 </body>
 
