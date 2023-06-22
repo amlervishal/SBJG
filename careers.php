@@ -137,7 +137,7 @@ End Fixed Navigation
   <div class="container">
       <div>
           <h5 class="text-center titlefont2">We're always looking for great talent to join our team.</h5>
-          <p class="text-center">Please fill out the form below and share a issuu/other link your resume and portfolio.</p>
+          <p class="text-center">Please fill out the form below and share a link your resume and portfolio.</p>
       </div>
      
       <div class="admission-form d-flex justify-content-center">
@@ -160,12 +160,12 @@ End Fixed Navigation
           </div>
 
           <div class="form-group">
-              <label for="resume" class="form-label ">Issuu Resume</label>
+              <label for="resume" class="form-label ">Resume-Link</label>
               <input type="text" class="form-control" id="resume" name="cv-link" placeholder="CV-link" tabindex="5" required>
           </div>
 
           <div class="form-group">
-              <label for="portfolio" class="form-label ">Issuu Portfolio</label>
+              <label for="portfolio" class="form-label ">Portfolio-Link</label>
               <input type="text" class="form-control" id="portfolio" name="portfolio" placeholder="Portfolio-link" tabindex="5" required>
           </div>
 
