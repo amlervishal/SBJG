@@ -259,6 +259,7 @@ figure {
 
 a {
   transition: all 0.3s ease-in 0s;
+  color: #001128;
 }
 
 iframe {
@@ -3306,7 +3307,7 @@ a:focus, a:hover {
   background-position: top center;
 }
 .project-5 {
-  background-image: url(../images/portfolio/citizenm-thumbnail.png);
+  background-image: url(../images/portfolio/bowerym-thumbnail.png);
   background-position: top center;
 }
 .project-6 {
