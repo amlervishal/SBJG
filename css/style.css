@@ -277,8 +277,8 @@ a:focus, a:hover {
 /* custom */
 .img2 {
   margin-top: 2vh;
-  margin-bottom: 2vh;
-  width: 17vw;
+  margin-bottom: 1vh;
+  width: 15vw;
   max-height: auto;
 }
 
@@ -287,7 +287,7 @@ a:focus, a:hover {
 @media screen and (max-width:1250px) {
   .img2 {
     margin-top: 2vh;
-    margin-bottom: 2vh;
+    margin-bottom: 1vh;
     width: 22vw;
     max-height: auto;
 }
@@ -296,7 +296,7 @@ a:focus, a:hover {
 @media screen and (max-width:1100px) {
   .img2 {
     margin-top: 2vh;
-    margin-bottom: 2vh;
+    margin-bottom: 1vh;
     width: 27vw;
     max-height: auto;
 }
@@ -305,7 +305,7 @@ a:focus, a:hover {
 @media screen and (max-width:900px) {
   .img2 {
     margin-top: 2vh;
-    margin-bottom: 2vh;
+    margin-bottom: 1vh;
     width: 29vw;
     max-height: auto;
 }
@@ -314,7 +314,7 @@ a:focus, a:hover {
 @media screen and (max-width:750px) {
   .img2 {
     margin-top: 2vh;
-    margin-bottom: 2vh;
+    margin-bottom: 1vh;
     width: 31vw;
     max-height: auto;
 }
@@ -323,7 +323,7 @@ a:focus, a:hover {
 @media screen and (max-width:500px) {
   .img2 {
     margin-top: 2vh;
-    margin-bottom: 2vh;
+    margin-bottom: 1vh;
     width: 55vw;
     max-height: auto;
 }
