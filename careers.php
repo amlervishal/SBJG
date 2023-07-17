@@ -87,8 +87,8 @@ Fixed Navigation
 	<!-- logo -->
   <div class="container text-center">
     <a class="navbar-brand2 logo" href="index.html">
-      <img loading="lazy" class="logo-default img2 text-center" src="images/SBJG_logo/LOGO-01.png" alt="logo" />
-      <img loading="lazy" class="logo-white img2" src="images/SBJG_logo/LOGO-01.png" alt="logo" />
+      <img loading="lazy" class="logo-default img2 text-center" src="images/SBJG_logo/LOGO-100.svg" alt="logo" />
+      <img loading="lazy" class="logo-white img2" src="images/SBJG_logo/LOGO-100.svg" alt="logo" />
     </a>
   </div>
 	<!-- /logo -->  
