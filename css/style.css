@@ -3290,7 +3290,7 @@ a:focus, a:hover {
 }
 
 .project-1 {
-  background-image: url(../images/portfolio/trinity-thumbnail.png);
+  background-image: url(../images/projects/trinity/trinity-01.jpg);
   background-position: top center;
 }
 
@@ -3319,7 +3319,7 @@ a:focus, a:hover {
   background-position: top center;
 }
 .project-8 {
-  background-image: url(../images/portfolio/thumbnail-morganparc-02.png);
+  background-image: url(../images/projects/morganparc/p-morganparc-01.jpg);
   background-position: top center;
 }
 
@@ -3389,13 +3389,13 @@ a:focus, a:hover {
 }
 
 .project-22 {
-  background-image: url(../images/projects/edge/p-edge-01.jpg);
-  background-position: left center;
+  background-image: url(../images/projects/edge/edge-thumb.jpg);
+  background-position: top center;
 }
 
 .project-23 {
-  background-image: url(../images/projects/ohm/p-ohm-01.jpg);
-  background-position: left center;
+  background-image: url(../images/projects/ohm/ohm-thumb.jpg);
+  background-position: top center;
 }
 
 .project-24 {
@@ -3489,7 +3489,7 @@ a:focus, a:hover {
 }
 
 .project-42 {
-  background-image: url(../images/projects/sloanemansion/p-sloanemansion-01.jpg);
+  background-image: url(../images/projects/sloanemansion/sloane-thumb.jpg);
   background-position: right center;
 }
 
