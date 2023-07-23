@@ -19,7 +19,7 @@
 			}, 300);
 		});
   }
-  
+
   //Hero Slider
   $('.hero-slider').slick({
     autoplay: true,
@@ -44,7 +44,7 @@
     if (containerEl) {
       filterizd = $('.filtr-container').filterizr({
         filter: 'custom_all'
-      }); 
+      });
     }
   }, 500);
 
@@ -181,18 +181,51 @@
     }
   });
 
-  
-  
+
+  // Link Previews
+
+  // $(document).ready(function() {
+  //   var list = [
+  //   "https://www.6sqft.com/lottery-opens-for-138-mixed-income-units-a-block-from-the-coney-island-boardwalk-from-558month/",
+  //   "https://www.crainsnewyork.com/commercial-real-estate/luxe-tribeca-hotel-track-despite-industry-headwinds",
+  //   "https://newyorkyimby.com/2021/09/456-greenwich-streets-red-brick-exterior-nears-completion-in-tribeca-manhattan.html",
+  //   "https://newyorkyimby.com/2021/09/2551-2555-broadways-stone-facade-begins-installation-on-manhattans-upper-west-side.html",
+  //   "https://therealdeal.com/2021/09/10/these-were-the-most-active-architects-in-nycs-spring-awakening/",
+  //   "https://newyorkyimby.com/2021/08/3-sutton-places-crown-installation-progresses-in-midtown-manhattan.html",
+  //   "https://www.archpaper.com/event/2021-brick-in-architecture-awards/"
+  //   ];
+
+
+  //   $.each(list, function (index, url) {
+  //     $.get("https://getlinkpreview.onrender.com/?url=" + url, function( response ) {
+  //       console.log(response);
+
+  //       var html = '<div class="output">' +
+  //                   '<a href="'+ response['ogUrl'] + '" class="link-preview" target="_blank">' +
+  //                     '<img src="'+ response['image'] + '">' +
+  //                     '<div class="link-preview-data">' +
+  //                       '<div class="title">' + response['title'] + '</div>' +
+  //                       '<div class="desc">' + response['description'] + '</div>' +
+  //                       '<div class="domain">' + response['domain'] + '</div>' +
+  //                   '</a>'
+  //                 '</div>';
+
+  //       $(".link-previews").append(html);
+  //     });
+  //   });
+  // });
+
+
 })(jQuery);
 
 /* ========================================================================= */
-/*	button  
+/*	button
 /* ========================================================================= */
 
 function highlight() {
   $(".btn-01").removeClass("btn-02");
   $(this).addClass("btn-02");
-} 
+}
 $("document").ready(function() {
   $('.btn-01').click(highlight);
 })
