@@ -10,10 +10,7 @@
             $userEmail = $_POST['email'];
             $userMobile = $_POST['mobile'];
             $messageSubject = $_POST['subject'];
-            $resume = $_POST['resume'];
-            $portfolio = $_POST['portfolio'];
             $message = $_POST['message'];
-          
 
             $to = "contactus@sbjgroup.com";
             $headers = 'From: idastrachan@sbjgroup.com'. "\r\n";
@@ -25,9 +22,7 @@
             $body .= "Email: ".$userEmail. "\r\n";
             $body .= "Mobile: ".$userMobile. "\r\n";
             $body .= "Subject: ".$messageSubject. "\r\n";
-            $body .= "Resume: ".$resume. "\r\n";
-            $body .= "Portfolio: ".$portfolio. "\r\n";
-            $body .= "Cover: ".$message. "\r\n";
+            $body .= "Message: ".$message. "\r\n";
 
             mail($to, $emailSubject, $body, $headers);
             
@@ -131,12 +126,57 @@ End Fixed Navigation
 ==================================== -->
 <!-- Page Content -->
 <section class="section-projects"></section><hr class="hr-st">
+<section class="section-awards" id="portfolio">
+	<div class="container-fluid">
+    <div class="row my-5">
+      
+        <div class="col-sm-6 title mx-3">
+          <h1 class="page-title">Contact Us</h1> <hr>
+          <h3>SBJ Group </h3> <hr>
+          <h6>381 Park Avenue South <br> New York, NY 10016</h6> <hr>
+          
+          <div class="dbox w-100 d-flex align-items-center">
+            <div class="icon d-flex align-items-center justify-content-center">
+            <span class="fa fa-phone"><img class="social-icon" src="images/SBJG_logo/phone-call.png" alt=""></span>
+            </div>
+            <div class="text pl-3">
+            <p><span>Contact:</span> <a class="promptfont" href="tel://1234567920">+1 212.421.3712</a></p>
+            <!-- <p><span>Contact:</span> <a class="promptfont" href="tel://1234567920">+1 212.421.8471</a></p> -->
+            </div>
+            </div> <hr>
 
+            <div class="dbox w-100 d-flex align-items-center">
+              <div class="icon d-flex align-items-center justify-content-center">
+              <span class="fa fa-phone"><img class="social-icon" src="images/SBJG_logo/email.png" alt=""></span>
+              </div>
+              <div class="text pl-3">
+              <p><a class="promptfont" href="mailto:contactus@sbjgroup.com">contactus@sbjgroup.com</a></p>
+           
+              </div>
+              </div> <hr>
+
+              <h6><a class="promptfont" href="careers.php">Careers</a></h6>
+        </div>
+
+        <div class="col-sm title my-auto text-center">
+          <div class="map-responsive">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d899.3098619664788!2d-73.98457179961713!3d40.742380326682564!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259a7726919f9%3A0x333e5602afff8c1c!2s381%20Park%20Ave%20S%2C%20New%20York%2C%20NY%2010016!5e0!3m2!1sen!2sus!4v1675120709987!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
+
+      
+        </div>
+	 <!-- end row -->
+	</div> 
+  <hr>
+ 
+</section>
+<hr>
 <section class="form-section">
   <div class="container">
       <div>
-          <h5 class="text-center titlefont2">We're always looking for great talent to join our team.</h5>
-          <p class="text-center">Please fill out the form below and share a link your resume and portfolio.</p>
+          <h5 class="text-center form-title">Get in touch.</h5>
+          <p class="text-center">Have a question. Ask us. Our team will get back to you.</p>
       </div>
      
       <div class="admission-form d-flex justify-content-center">
@@ -157,25 +197,9 @@ End Fixed Navigation
               <label for="subject" class="form-label ">Subject</label>
               <input type="text" class="form-control" id="subject" name="subject" placeholder="Enquiry" tabindex="4" required>
           </div>
-
           <div class="form-group">
-              <label for="resume" class="form-label ">Resume-Link</label>
-              <input type="text" class="form-control" id="resume" name="cv-link" placeholder="CV-link" tabindex="5" required>
-          </div>
-
-          <div class="form-group">
-              <label for="portfolio" class="form-label ">Portfolio-Link</label>
-              <input type="text" class="form-control" id="portfolio" name="portfolio" placeholder="Portfolio-link" tabindex="5" required>
-          </div>
-
-          <div class="form-group">
-              <label for="subject" class="form-label ">Subject</label>
-              <input type="text" class="form-control" id="subject" name="subject" placeholder="Enquiry" tabindex="6" required>
-          </div>
-
-          <div class="form-group">
-              <label for="message" class="form-label ">Cover Letter</label>
-              <textarea class="form-control" rows="5" cols="50" id="message" name="message" placeholder="Cover Letter.." tabindex="7"></textarea>
+              <label for="message" class="form-label ">Message</label>
+              <textarea class="form-control" rows="5" cols="50" id="message" name="message" placeholder="Enter Message..." tabindex="5"></textarea>
           </div>
           <div class="text-center my-2">
               <button type="submit" class="btn btn-dark">Send Message!</button>
@@ -188,8 +212,6 @@ End Fixed Navigation
               endif;
           ?>
      </div>
-
-     <div class = "container text-center mt-5" > SBJ GROUP is an Equal Opportunity Employer. SBJ GROUP will provide equal opportunity to all individuals without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, disability, or veteran status.</div>
 
       </form>
   </div>

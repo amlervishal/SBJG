@@ -2909,6 +2909,7 @@ a:focus, a:hover {
 
   transition: transform 500ms ease;
   margin: 2%;
+  box-shadow: 0 0 0 1px rgba(53,72,91,.07), 0 2px 2px rgba(0,0,0,.01), 0 4px 4px rgba(0,0,0,.02), 0 10px 8px rgba(0,0,0,.03), 0 15px 15px rgba(0,0,0,.03), 0 30px 30px rgba(0,0,0,.04), 0 70px 65px rgba(0,0,0,.05);
 
 }
 
@@ -3068,6 +3069,16 @@ a:focus, a:hover {
 
 .card-18 {
   background-image: url(../images/team/alee.jpg);
+  background-position: top center;
+}
+
+.card-19 {
+  background-image: url(../images/team/vishal.png);
+  background-position: top center;
+}
+
+.card-20 {
+  background-image: url(../images/team/hardik.jpg);
   background-position: top center;
 }
 
@@ -3404,7 +3415,7 @@ a:focus, a:hover {
 }
 
 .project-25 {
-  background-image: url(../images/projects/plazaathenee/p-plazaathenee-01.jpg);
+  background-image: url(../images/projects/plazaathenee/p-plazaathenee-11.jpg);
   background-position: top center;
 }
 
@@ -3498,10 +3509,22 @@ a:focus, a:hover {
   background-position: right center;
 }
 
+.project-43a {
+  background-image: url(../images/projects/suttontower/p-suttontower-08.jpg);
+  background-position: right center;
+}
+
+
 .project-44 {
   background-image: url(../images/projects/250w96th/p-250w96th-thumb.jpg);
   background-position: right center;
 }
+
+.project-44a {
+  background-image: url(../images/projects/250w96th/i-250west96th-02-thumb.jpg);
+  background-position: right center;
+}
+
 
 .project-45 {
   background-image: url(../images/projects/555west23rd/p-555west23rdstreet-03.jpg);
@@ -3589,7 +3612,7 @@ a:focus, a:hover {
 }
 
 .project-62 {
-  background-image: url(../images/projects/gansevoortSouth/p-gansevoortsouth-01.jpg);
+  background-image: url(../images/projects/gansevoortSouth/p-gansevoortsouth-03.jpg);
   background-position: top center;
 }
 
@@ -4116,4 +4139,21 @@ a:focus, a:hover {
     max-width: 75vw;
     
   } 
+}
+
+
+/* button for careers */
+
+.button-careers {
+  display: block;
+    border: 1px solid black;
+    border-radius: 0.5em;
+    padding-inline: 56px;
+    padding-block: 25px;
+    font-weight: 600;
+    font-size: 1rem;
+    margin-block-start: auto;
+    width: 50vw;
+    letter-spacing: .5rem;
+    margin-bottom: 100px;
 }
