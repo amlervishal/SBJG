@@ -436,13 +436,13 @@ a:focus, a:hover {
   margin-bottom: 10%;
 }
 
-.section-press {
+/* .section-press {
   padding: 150px;
   background-image: url("../images/slider/slider-1.png");
   background-size: cover;
   height: 70vh;
   color: #fff;
-}
+} */
 
 .section-projects {
   display: flex;
@@ -4015,4 +4015,105 @@ a:focus, a:hover {
   letter-spacing: 0.25rem;
   text-transform: uppercase;
   margin-bottom: 2rem;
+}
+
+
+/* PRESS PAGE CSS */
+/* PRESS PAGE CSS */
+/* PRESS PAGE CSS */
+/* PRESS PAGE CSS */
+
+.section-press {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 100px;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 10%;
+
+}
+
+.output {
+  max-width: 17vw;
+  overflow: hidden;
+  border: 1px solid #d1d5db;
+  margin: 1em;
+  border-radius: .2em;
+  box-shadow: 0 0 0 1px rgba(53,72,91,.07), 0 2px 2px rgba(0,0,0,.01), 0 4px 4px rgba(0,0,0,.02), 0 10px 8px rgba(0,0,0,.03), 0 15px 15px rgba(0,0,0,.03), 0 30px 30px rgba(0,0,0,.04), 0 70px 65px rgba(0,0,0,.05);
+} 
+
+.link-preview {
+  display: block;
+  height: 250px;
+  width: auto;
+  overflow: hidden;
+  width: inherit;
+}
+
+.link-preview img {
+  object-fit: cover;
+  width: -webkit-fill-available;
+  height: inherit;
+}
+
+.link-preview-data {
+  border-top: 1px solid #d1d5db; 
+}
+
+.link-previews {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;  
+}
+
+.link-preview-data {
+  display: block;
+  width: inherit;
+  height: auto;
+  padding: 1em;
+}
+
+.link-preview-data .title  {
+  font-weight: 600;
+}
+
+.link-preview-data .desc  {
+  font-weight: 300;
+  font-size: .8em;
+}
+
+.link-preview-data .domain  {
+  font-weight: 500;
+  font-size: .8em;
+  padding-top: 5px;
+}
+
+@media screen and (max-width:1250px) {
+  .output {
+    max-width: 24vw;
+    
+  } 
+}
+
+@media screen and (max-width:1100px) {
+  .output {
+    max-width: 30vw;
+    
+  } 
+}
+
+@media screen and (max-width:800px) {
+  .output {
+    max-width: 34vw;
+    
+  } 
+}
+
+@media screen and (max-width:600px) {
+  .output {
+    max-width: 75vw;
+    
+  } 
 }

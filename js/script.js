@@ -186,13 +186,8 @@
 
   // $(document).ready(function() {
   //   var list = [
-  //   "https://www.6sqft.com/lottery-opens-for-138-mixed-income-units-a-block-from-the-coney-island-boardwalk-from-558month/",
-  //   "https://www.crainsnewyork.com/commercial-real-estate/luxe-tribeca-hotel-track-despite-industry-headwinds",
-  //   "https://newyorkyimby.com/2021/09/456-greenwich-streets-red-brick-exterior-nears-completion-in-tribeca-manhattan.html",
-  //   "https://newyorkyimby.com/2021/09/2551-2555-broadways-stone-facade-begins-installation-on-manhattans-upper-west-side.html",
-  //   "https://therealdeal.com/2021/09/10/these-were-the-most-active-architects-in-nycs-spring-awakening/",
-  //   "https://newyorkyimby.com/2021/08/3-sutton-places-crown-installation-progresses-in-midtown-manhattan.html",
-  //   "https://www.archpaper.com/event/2021-brick-in-architecture-awards/"
+      
+    
   //   ];
 
 
@@ -202,7 +197,7 @@
 
   //       var html = '<div class="output">' +
   //                   '<a href="'+ response['ogUrl'] + '" class="link-preview" target="_blank">' +
-  //                     '<img src="'+ response['image'] + '">' +
+  //                     '<img src="'+ response['image'] + '">' + 
   //                     '<div class="link-preview-data">' +
   //                       '<div class="title">' + response['title'] + '</div>' +
   //                       '<div class="desc">' + response['description'] + '</div>' +
