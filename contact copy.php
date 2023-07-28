@@ -42,7 +42,7 @@
   <!-- Basic Page Needs
   ================================================== -->
   <meta charset="utf-8">
-  <title>SBJ Group | Architects & Interiorr Designers</title>
+  <title>SBJ Group | Architects & Interior Designers</title>
 
   <!-- Mobile Specific Metas
   ================================================== -->
