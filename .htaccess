@@ -1,8 +1,8 @@
 # Rewrite to www
 Options +FollowSymLinks
 RewriteEngine on
-RewriteCond %{HTTP_HOST} ^sbjgroup.com[nc]
-RewriteRule ^(.*)$ http://www.sbjgroup.com/$1 [r=301,nc]
+RewriteCond %{HTTP_HOST} ^sbjgroup.com [NC]
+RewriteRule ^(.*)$ http://www.sbjgroup.com/$1 [L,R=301]
 
 # 301 Redirect Old File
 Redirect 301 sbjgroup.com/index.html www.sbjgroup.com/index.html
