@@ -15,8 +15,8 @@
             $message = $_POST['message'];
           
 
-            $to = "contactus@sbjgroup.com";
-            $headers = 'From: idastrachan@sbjgroup.com'. "\r\n";
+            $to = "careers@sbjgroup.com";
+            $headers = 'From: contactus@sbjgroup.com'. "\r\n";
             $emailSubject = "SBJG ENQUIRY FORM: ". $messageSubject;
             $body = "";
 
