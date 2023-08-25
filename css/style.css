@@ -2528,7 +2528,7 @@ a:focus, a:hover {
   margin-bottom: 3px;
 }
 .footer-bottom h6 {
-  font-size: 11px;
+  font-size: 12px;
   line-height: 15px;
   color: #888888;
   font-weight: 400;
@@ -3876,6 +3876,14 @@ a:focus, a:hover {
   letter-spacing: .1em;
   font-size: 18px;
   z-index: 1;
+}
+
+@media screen and (max-width:800px) {
+  .title-box {
+    
+   display: none;
+
+  }
 }
 
 
