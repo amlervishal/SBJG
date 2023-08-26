@@ -63,81 +63,72 @@
     }
     </script>
   <!-- schema -->
-
+    <script src="/js/nav.js" defer> </script>
   <!-- CSS
   ================================================== -->
 
   <!-- bootstrap.min css -->
-  <link rel="stylesheet" href="plugins/bootstrap/bootstrap.min.css">
+  <!-- <link rel="stylesheet" href="plugins/bootstrap/bootstrap.min.css"> -->
   
   <!-- Lightbox.min css -->
-  <link rel="stylesheet" href="plugins/lightbox2/css/lightbox.min.css">
+  <!-- <link rel="stylesheet" href="plugins/lightbox2/css/lightbox.min.css"> -->
   <!-- animation css -->
-  <link rel="stylesheet" href="plugins/animate/animate.css">
+  <!-- <link rel="stylesheet" href="plugins/animate/animate.css"> -->
   <!-- Slick Carousel -->
   <link rel="stylesheet" href="plugins/slick/slick.css">
   <!-- Main Stylesheet -->
-  <link rel="stylesheet" href="css/style.css">
+  <!-- <link rel="stylesheet" href="css/style.css"> -->
+  <link rel="stylesheet" href="css/style01.css">
 
 </head>
 
 <body id="body">
+
+  <header>
+    <div class="container flex">
+      <img class="logo" src="/images/SBJG_logo/LOGO-100.svg" alt="">
+    </div>
+
+    <button class="mobile-nav-toggle" aria-controls="primary-navigation" aria-expanded="false"><span class="sr-only">Menu</span></button>
+
+    <nav>
+      <ul id="primary-navigation" data-visible="false" class="primary-navigation flex" >
+        <li class="active">
+          <a class="nav-text" href=""><span aria-hidden="true">ABOUT</span></a>
+        </li>
+        <li class="active">
+          <a class="nav-text" href=""><span aria-hidden="true">PROJECTS</span></a>
+        </li>
+        <li class="active">
+          <a class="nav-text" href=""><span aria-hidden="true">TEAM</span></a>
+        </li>
+        <li class="active">
+          <a class="nav-text" href=""><span aria-hidden="true">AWARDS</span></a>
+        </li>
+        <li class="active">
+          <a class="nav-text" href=""><span aria-hidden="true">PRESS</span></a>
+        </li>
+        <li class="active">
+          <a class="nav-text" href=""><span aria-hidden="true">CONTACT</span></a>
+        </li>
+      </ul>
+    </nav>
+  </header>
 
   <!--Start Preloader-->
 
   <!--
 Fixed Navigation
 ==================================== -->
-  <header class="navigation fixed-top">
-    <div class="container">
-      <!-- logo -->
-      <div class="container text-center">
-        <a class="navbar-brand2 logo" href="index.html">
-          <img loading="lazy" class="logo-default img2 text-center" src="images/SBJG_logo/LOGO-100.svg" alt="logo" />
-          <img loading="lazy" class="logo-white img2" src="images/SBJG_logo/LOGO-100-white.svg" alt="logo" />
-        </a>
-      </div>
-      <!-- /logo -->
-
-      <!-- main nav -->
-      <nav class="navbar navbar-expand-lg navbar-light justify-content-center p-0 ">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation"
-          aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-icon text-center"></span>
-        </button>
-        <!-- Navbar center element is used after the navbar-collapse.. add justify-content-center remove all mx or ml auto-->
-        <div class="collapse navbar-collapse justify-content-center" id="navigation">
-          <ul class="navbar-nav text-center">
-            <li class="nav-item ">
-              <a class="nav-link" href="about.html">About</a>
-            </li>
-            <li class="nav-item ">
-              <a class="nav-link" href="projects.html">Projects</a>
-            </li>
-            <li class="nav-item ">
-              <a class="nav-link" href="team.html">Team</a>
-            </li>
-            <li class="nav-item ">
-              <a class="nav-link" href="awards.html">Awards</a>
-            </li>
-            <li class="nav-item ">
-              <a class="nav-link" href="press.html">Press</a>
-            </li>
-            <li class="nav-item ">
-              <a class="nav-link" href="contact.html">Contact</a>
-            </li>
-
-          </ul>
-        </div>
-      </nav>
-      <!-- /main nav -->
-    </div>
-  </header>
+  <!-- <header class="navigation fixed-top">
+    
+    
+  </header> -->
   <!--
 End Fixed Navigation
 ==================================== -->
   <!-- Slider Start -->
-  <div class="hero-slider">
+  <!-- <div class="hero-slider">
 
     <div class="slider-item  hero-area" loading="lazy" style="background-image: url(images/slider/alta-lic-slider.jpg); background-position: top center;">
       <div class="container">
@@ -182,7 +173,7 @@ End Fixed Navigation
       </div>
     </div>
 
-  </div>
+  </div> -->
   <!-- Slider END -->
 
 

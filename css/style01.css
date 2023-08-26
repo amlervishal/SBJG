@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800&display=swap');
+
+body {
+  line-height: 1.4;
+
+  font-family: 'Raleway', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  margin: 0%;
+  overflow: hidden;
+}
+
+p {
+  font-family: 'Raleway', sans-serif;
+  font-size: 15px;
+  line-height: 1.9;
+  font-weight: 400;
+  letter-spacing: 0.01em;
+}
+
+@media (max-width: 800px) {
+  p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 12px;
+    line-height: 1.9;
+    font-weight: 400;
+    letter-spacing: 0.01em;
+  }
+
+}
+
+@media (max-width: 600px) {
+  p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 11px;
+    line-height: 1.9;
+    font-weight: 400;
+    letter-spacing: 0.01em;
+  }
+}
+
+.titlefont {
+  font-family: "Source Sans Pro", sans-serif;
+  color: #848484;
+  font-size: 16px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+}
+
+.text-middle {
+  vertical-align: middle;
+  position: relative;
+  top: 25%;
+}
+
+.hr-st {
+  border-top: .75px solid rgb(0 0 0 / 50%);
+  height: auto;
+  box-shadow: #000;
+
+}
+
+.hr-st-white {
+  border-top: .75px solid rgb(255, 255, 255);
+  height: auto;
+  box-shadow: #ffffff;
+}
+
+.page-title {
+  font-family: 'Raleway', sans-serif;
+  color: rgb(50, 50, 50);
+  font-weight: 400;
+  font-size: 40px;
+  letter-spacing: .5rem;
+  text-transform: uppercase;
+  margin-bottom: 0.01rem;
+}
+
+@media (max-width: 800px) {
+  .page-title {
+    font-family: 'Raleway', sans-serif;
+    color: rgb(50, 50, 50);
+    font-weight: 500;
+    font-size: 25px;
+    letter-spacing: 1rem;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+  }
+
+}
+
+@media (max-width: 600px) {
+  .page-title {
+    font-family: 'Raleway', sans-serif;
+    color: rgb(50, 50, 50);
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1rem;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+
+}
+
+.outline-font {
+  font-family: 'Raleway', sans-serif;
+  color: rgb(0, 0, 0);
+  font-weight: 400;
+  font-size: 50px;
+  -webkit-text-stroke: 0.75px rgb(50, 50, 50);
+}
+
+@media (max-width: 768px) {
+  .outline-font {
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    font-weight: 400;
+    font-size: 50px;
+    -webkit-text-stroke: 0.75px rgb(50, 50, 50);
+  }
+
+}
+
+.flex {
+  display: flex;
+  gap: var(--gap, 5rem);
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+li {
+  list-style-type: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+
+.logo {
+  width: 500px;
+  margin-top: 2vh;
+  margin-bottom: 1vh;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+.primary-navigation {
+  display: flex;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 0px;
+  overflow: hidden;
+}
+
+.primary-navigation[data-visible = "true"] {
+  transform: translateY(0%);
+}
+
+.primary-navigation .a {
+    text-decoration: none;
+    color: #000;
+    font-size: 600;
+    line-height: 26px;
+}
+
+.mobile-nav-toggle {
+  display: none;
+}
+
+.nav-text {
+  color: #3b3a3a;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 26px;
+  padding: 0px 5px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  transition: 0.2s ease-in-out 0s;
+  text-align: center;
+}
+
+@media (max-width: 35em) {
+  .primary-navigation {
+    position: center fixed;
+    /* background: #3b3a3a6d; */
+    flex-direction: column;
+    text-align: center;
+    margin: 5vw;
+    --gap: 2rem;
+
+    transform: translateY(-150%);
+    transition: transform 350ms ease-in;
+    overflow-y: hidden;
+  }
+
+  .primary-navigation[data-visible = "true"] {
+    transform: translateY(0%);
+  }
+
+  .logo {
+    width: 35vw;
+  }
+
+  .mobile-nav-toggle {
+    display: block;
+    /* position: absolute; */
+    background: url("/images/SBJG_logo/menu-03.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 6vw;
+    aspect-ratio: 1;
+    z-index: 100;
+    margin: 0%;
+    border: none;
+  }
+}
+
+.sr-only {
+  display: none;
+  visibility: hidden;
+}
+
