@@ -184,30 +184,31 @@
 
   // Link Previews
 
-  // $(document).ready(function() {
-  //   var list = [
+  $(document).ready(function() {
+    var list = [
+      "https://newyorkyimby.com/2023/10/affordable-senior-housing-building-opens-at-2850-webster-avenue-in-jerome-park-the-bronx.html"
       
-  //   ];
+    ];
 
 
-  //   $.each(list, function (index, url) {
-  //     $.get("https://getlinkpreview.onrender.com/?url=" + url, function( response ) {
-  //       console.log(response);
+    $.each(list, function (index, url) {
+      $.get("https://getlinkpreview.onrender.com/?url=" + url, function( response ) {
+        console.log(response);
 
-  //       var html = '<div class="output">' +
-  //                   '<a href="'+ response['ogUrl'] + '" class="link-preview" target="_blank">' +
-  //                     '<img src="'+ response['image'] + '">' + 
-  //                     '<div class="link-preview-data">' +
-  //                       '<div class="title">' + response['title'] + '</div>' +
-  //                       '<div class="desc">' + response['description'] + '</div>' +
-  //                       '<div class="domain">' + response['domain'] + '</div>' +
-  //                   '</a>'
-  //                 '</div>';
+        var html = '<div class="output">' +
+                    '<a href="'+ response['ogUrl'] + '" class="link-preview" target="_blank">' +
+                      '<img src="'+ response['image'] + '">' + 
+                      '<div class="link-preview-data">' +
+                        '<div class="title">' + response['title'] + '</div>' +
+                        '<div class="desc">' + response['description'] + '</div>' +
+                        '<div class="domain">' + response['domain'] + '</div>' +
+                    '</a>'
+                  '</div>';
 
-  //       $(".link-previews").append(html);
-  //     });
-  //   });
-  // });
+        $(".link-previews").append(html);
+      });
+    });
+  });
 
 
 })(jQuery);
