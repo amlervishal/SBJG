@@ -3716,6 +3716,16 @@ a:focus, a:hover {
   background-position: top right;
 }
 
+.project-81 {
+  background-image: url(../images/projects/p-gug/p-gug.png);
+  background-position: top right;
+}
+
+.project-82 {
+  background-image: url(../images/projects/p-nybg/p-nybg-thumb.png);
+  background-position: top right;
+}
+
 
 .flex-container {
  display: flex;
