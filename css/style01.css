@@ -400,7 +400,6 @@ a {
 }
 
 .hero-area {
-  background-image: url("../images/slider/slider-bg-1.jpg");
   background-size: cover;
   height: 100vh;
   position: relative;
@@ -408,6 +407,61 @@ a {
   justify-content: center;
   align-items: center;
 }
+
+.bg-1 {
+  background-image: url(/images/slider/alta-lic-slider.jpg);
+} 
+
+.bg-2 {
+  background-image: url(/images/slider/p-foquets-slider.jpg);
+} 
+
+.bg-3 {
+  background-image: url(/images/slider/slider-1.png);
+} 
+
+.bg-4 {
+  background-image: url(/images/slider/p-trinity-slider.jpg);
+} 
+
+.bg-5 {
+  background-image: url(/images/slider/slider-2.jpg);
+} 
+
+.bg-6 {
+  background-image: url(/images/slider/slider-3.jpg);
+} 
+
+
+
+@media (max-width: 500px) {
+  .bg-1 {
+    background-image: url(/images/slider/alta-lic-m.jpg);
+  } 
+
+  .bg-2 {
+    background-image: url(/images/slider/p-foquets-m.jpg);
+  } 
+  
+  .bg-3 {
+    background-image: url(/images/slider/slider-1-m.jpg);
+  } 
+  
+  .bg-4 {
+    background-image: url(/images/slider/p-trinity-m.jpg);
+  } 
+  
+  .bg-5 {
+    background-image: url(/images/slider/slider-2-m.jpg);
+  } 
+  
+  .bg-6 {
+    background-image: url(/images/slider/slider-3-m.jpg);
+  } 
+  }
+
+  
+
 
 
 .hero-area:before {

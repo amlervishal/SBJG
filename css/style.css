@@ -1252,6 +1252,12 @@ a:focus, a:hover {
   background-repeat: no-repeat;
   position: relative;
 }
+
+.bg-1 {
+background-image: url(/images/slider/alta-lic-slider.jpg); background-position: top center;
+}
+
+
 .slider-item::before {
   position: absolute;
   content: "";
@@ -4198,7 +4204,6 @@ a:focus, a:hover {
     
   } 
 }
-
 
 /* button for careers */
 
