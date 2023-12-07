@@ -343,9 +343,9 @@ a {
 
 .slider-item .container {
   position: absolute;
-  left: 0;
-  right: 0;
-  top: 50%;
+  left: 15vw;
+  right: 15vw;
+  top: 80%;
   transform: translateY(-50%);
 }
 
@@ -368,10 +368,20 @@ a {
 
 .slider-item h1 {
   color: #fff;
-  font-size: 60px;
+  font-size: 40px;
   line-height: 70px;
   letter-spacing: 2px;
   font-weight: 700;
+  margin-bottom: 20px;
+  margin-top: 50px;
+}
+
+.slider-item h4 {
+  color: #fff;
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: 2px;
+  font-weight: 400;
   margin-bottom: 20px;
   margin-top: 50px;
 }
