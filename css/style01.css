@@ -409,55 +409,64 @@ a {
 }
 
 .bg-1 {
-  background-image: url(/images/slider/alta-lic-slider.jpg);
+  background-image: url('/images/slider/alta-lic-slider.jpg');
 } 
 
 .bg-2 {
-  background-image: url(/images/slider/p-foquets-slider.jpg);
+  background-image: url('/images/slider/p-foquets-slider.jpg');
 } 
 
 .bg-3 {
-  background-image: url(/images/slider/slider-1.png);
+  background-image: url('/images/slider/slider-1.png');
 } 
 
 .bg-4 {
-  background-image: url(/images/slider/p-trinity-slider.jpg);
+  background-image: url('/images/slider/p-trinity-slider.jpg');
 } 
 
 .bg-5 {
-  background-image: url(/images/slider/slider-2.jpg);
+  background-image: url('/images/slider/slider-2.jpg');
 } 
 
 .bg-6 {
-  background-image: url(/images/slider/slider-3.jpg);
+  background-image: url('/images/slider/slider-3.jpg');
+} 
+
+.bg-7 {
+  background-image: url('/images/slider/p-morganparc-slider.jpg');
 } 
 
 
 
 @media (max-width: 500px) {
   .bg-1 {
-    background-image: url(/images/slider/alta-lic-m.jpg);
+    background-image: url('/images/slider/alta-lic-m.jpg');
   } 
 
   .bg-2 {
-    background-image: url(/images/slider/p-foquets-m.jpg);
+    background-image: url('/images/slider/p-foquets-m.jpg');
   } 
   
   .bg-3 {
-    background-image: url(/images/slider/slider-1-m.jpg);
+    background-image: url('/images/slider/slider-1-m.jpg');
   } 
   
   .bg-4 {
-    background-image: url(/images/slider/p-trinity-m.jpg);
+    background-image: url('/images/slider/p-trinity-m.jpg');
   } 
   
   .bg-5 {
-    background-image: url(/images/slider/slider-2-m.jpg);
+    background-image: url('/images/slider/slider-2-m.jpg');
   } 
   
   .bg-6 {
-    background-image: url(/images/slider/slider-3-m.jpg);
+    background-image: url('/images/slider/slider-3-m.jpg');
   } 
+
+  .bg-7 {
+    background-image: url('/images/slider/p-morganparc-m.jpg');
+  } 
+
   }
 
   
