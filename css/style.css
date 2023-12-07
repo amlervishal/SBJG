@@ -3082,6 +3082,12 @@ a:focus, a:hover {
   background-position: top center;
 }
 
+.card-21 {
+  background-image: url(../images/team/sophie.png);
+  background-position: top center;
+}
+
+
 .card-sbj {
   background-image: url(../images/team/SBJ-1-02.png);
   background-position: top center;
@@ -3730,6 +3736,12 @@ a:focus, a:hover {
   background-image: url(../images/projects/p-cyclone-bagels/p-cyclone-bagels.png);
   background-position: top right;
 }
+
+.project-84 {
+  background-image: url(../images/projects/p-highgarden-tower/p-new-rochelle-thumb.jpg);
+  background-position: top center;
+}
+
 
 
 
