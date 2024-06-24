@@ -3720,7 +3720,7 @@ background-image: url(/images/slider/alta-lic-slider.jpg); background-position: 
 
 .project-79 {
   background-image: url(../images/projects/p-equality-charter-school/p-equality-charter-schools-1.png);
-  background-position: top right;
+  background-position: top left;
 }
 
 
@@ -3746,6 +3746,11 @@ background-image: url(/images/slider/alta-lic-slider.jpg); background-position: 
 
 .project-84 {
   background-image: url(../images/projects/p-highgarden-tower/p-new-rochelle-thumb.jpg);
+  background-position: top center;
+}
+
+.project-85 {
+  background-image: url(../images/projects/p-forte-prep/p-forte-prep.png);
   background-position: top center;
 }
 
