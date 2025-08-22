@@ -4213,15 +4213,20 @@ background-image: url(/images/slider/alta-lic-slider.jpg); background-position: 
 /* button for careers */
 
 .button-careers {
-  display: block;
+  display: inline-block;
     border: 1px solid black;
     border-radius: 0.5em;
-    padding-inline: 56px;
-    padding-block: 25px;
+    padding: 10px 16px;
     font-weight: 600;
-    font-size: 1rem;
-    margin-block-start: auto;
-    width: 50vw;
-    letter-spacing: .5rem;
-    margin-bottom: 100px;
+    font-size: 0.95rem;
+    width: 400px;
+    letter-spacing: .25rem;
+    margin-bottom: 0;
 }
+
+/* compact horizontal row for action buttons */
+.button-row { display:flex; justify-content:center; align-items:center; gap:16px; flex-wrap:wrap; margin-bottom: 5rem; }
+.button-row h6 { margin: 0; }
+
+/* utility */
+.underline { text-decoration: underline; text-underline-offset: 6px; }
