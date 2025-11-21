@@ -3094,6 +3094,31 @@ background-image: url(/images/slider/alta-lic-slider.jpg); background-position: 
   background-position: top center;
 }
 
+.card-22 {
+  background-image: url(../images/team/yun.png);
+  background-position: top center;
+}
+
+.card-23 {
+  background-image: url(../images/team/yajata.png);
+  background-position: top center;
+}
+
+.card-24 {
+  background-image: url(../images/team/hao.png);
+  background-position: top center;
+}
+
+.card-25 {
+  background-image: url(../images/team/lira.png);
+  background-position: top center;
+}
+
+.card-26 {
+  background-image: url(../images/team/luke-01.png);
+  background-position: top center;
+}
+
 
 .card-sbj {
   background-image: url(../images/team/SBJ-1-02.png);
