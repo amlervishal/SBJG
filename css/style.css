@@ -3780,12 +3780,22 @@ background-image: url(/images/slider/alta-lic-slider.jpg); background-position: 
 }
 
 .project-86 {
-  background-image: url(../images/projects/royceres/p-royceres-06.png);
+  background-image: url(../images/projects/royceres/p-royceres-09.png);
   background-position: top center;
 }
 
 .project-87 {
   background-image: url(../images/projects/ravenhall/p-ravenhall-01.png);
+  background-position: top center;
+}
+
+.project-88 {
+  background-image: url(../images/projects/p-prismahouse/p-prisma-house-01.png);
+  background-position: top center;
+}
+
+.project-89 {
+  background-image: url(../images/projects/p-eastone-plaza/p-eastone-plaza-01.png);
   background-position: top center;
 }
 
