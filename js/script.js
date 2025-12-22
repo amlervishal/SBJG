@@ -45,6 +45,10 @@
       filterizd = $('.filtr-container').filterizr({
         filter: 'custom_all'
       });
+      // Wait for Filterizr to complete initial layout, then show items
+      setTimeout(function() {
+        $('.filtr-container').addClass('filterizr-initialized');
+      }, 100);
     }
   }, 500);
 
