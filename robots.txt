@@ -3,3 +3,5 @@ User-agent: *
 Disallow: 
 Disallow: /cgi-bin/
 Sitemap: https://www.sbjgroup.com/sitemap.xml
+# Site summary for AI assistants and LLM crawlers
+# https://www.sbjgroup.com/llms.txt
